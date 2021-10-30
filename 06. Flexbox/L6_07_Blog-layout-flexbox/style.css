@@ -1,0 +1,131 @@
+html {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    padding: 20px 130px;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.25);
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.first-img {
+    align-items: flex-end;
+    margin-left: 41px;
+    margin-bottom: 20px;
+}
+
+.second-img {
+
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+.block-container-text, blockquote {
+
+    width: 45%;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    font-size: 1em/1.2em;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    border-left: 3px solid lightgrey;
+    padding-left: 20px;
+    font-style: italic;
+    color: #757171;
+}
+
+.author {
+    margin-top: 20px;
+}
+.site-header {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.site-title {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+main {
+    flex-basis: 80%;
+
+}
+
+aside {
+    flex-grow: 2;
+    flex-basis: 15%;
+    padding-left: 40px;
+}
+
+.nature-article {
+    margin-top: 50px;
+}
+
+aside a {
+    font-family: Georgia, serif;
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+.first-article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+}
+
+h1 {
+    width: 100%;
+    order: 1;
+}
+img {
+    order: 3;
+}
+
+.div-p {
+    order: 2;
+    width: 81%;
+}
+.block-container {
+    display: flex;
+}
+.nature-article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nature-article h2 {
+    width: 100%;
+    order: 1;
+}
+
+.nature-article img {
+    margin-top: 20px;
+    order: 2;
+    width: 15%;
+}
+
+.nature-p {
+    width: 80%;
+    order: 3;
+}

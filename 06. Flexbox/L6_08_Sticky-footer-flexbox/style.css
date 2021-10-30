@@ -1,0 +1,36 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    align-content: flex-start;
+}
+
+header {
+    width: 100%;
+    flex-basis: 1;
+    border-bottom: 2px solid gray;
+}
+header h1 {
+    text-transform: uppercase;
+}
+
+main {
+    height: 80%;
+}
+
+footer {
+    height: 10%;
+    width: 100%;
+    padding-left: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+}

@@ -1,0 +1,32 @@
+.mq-width span::before {
+    content: "MQ Width";
+}
+
+@media all and (min-width: 600px) {
+    .mq-width span::after {
+        content: " Viewport width is larger than 600px";
+        color: #6F945F;
+    }
+}
+
+.mq-height span::before {
+    content: "MQ Height";
+}
+
+@media all and (min-height: 600px) {
+    .mq-height span::after {
+        content: " Viewport height is larger than 600px";
+        color: #6F945F;
+    }
+}
+
+.mq-ar span::before {
+    content: "MQ Aspect Ratio";
+}
+
+@media all and (min-aspect-ratio: 8/5) {
+    .mq-ar span::after {
+    content: " Aspect Ratio is larger than 8/5";
+    color: #6F945F;
+}
+}

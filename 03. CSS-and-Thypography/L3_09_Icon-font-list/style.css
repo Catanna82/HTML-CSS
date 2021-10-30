@@ -1,0 +1,10 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+.fa-linkedin-in {
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+}
+
+.icons {
+    list-style-type: none;
+}

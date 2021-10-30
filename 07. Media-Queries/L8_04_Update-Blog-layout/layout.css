@@ -1,0 +1,50 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+
+    margin: 0 auto;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px 130px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #EBEBEB;
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.page-title {
+    border-bottom: 2px solid black;
+    font-size: 1.5em;
+}
+
+h2, h3 {
+    font-family: Georgia, serif;
+    font-size: 1em/1.2em;
+}
+
+h1 {
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+h2 {
+    width: 100%;
+    order: 1;
+}

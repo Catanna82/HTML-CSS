@@ -1,0 +1,21 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.click {
+    background-color: rgb(15, 119, 15);
+}
+
+.mail {
+    background-color: rgb(255, 136, 0);
+}
+

@@ -1,0 +1,18 @@
+html {
+    font-family: Helvetica, sans-serif;
+    color: rgb(51, 51, 51);
+    max-width: 1100px;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(238, 238, 238);
+
+}
+article {
+    padding-left: 350px ;
+}
+
+img {
+    display: inline-block;
+    width: 50%;
+}

@@ -1,0 +1,88 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    padding: 20px 130px;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.25);
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.first-img {
+    float: right;
+    margin-left: 41px;
+    margin-bottom: 20px;
+}
+
+.second-img {
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+.block-container-text, blockquote {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    font-size: 1em/1.2em;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    border-left: 3px solid lightgrey;
+    padding-left: 20px;
+    font-style: italic;
+    color: #757171;
+}
+
+.author {
+    display: block;
+    text-align: right;
+    margin-top: 20px;
+}
+.site-header {
+    border-bottom: 1px solid black;
+}
+
+.site-title {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+main {
+    width: 70%;
+    margin-right: 65px;
+}
+
+main, aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nature-article {
+    margin-top: 50px;
+}
+
+aside a {
+    text-decoration: none;
+    color: #009D48;
+}

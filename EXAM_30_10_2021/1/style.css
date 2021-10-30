@@ -1,0 +1,86 @@
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px 120px;
+    margin: 50px;
+    background-color: #F6F8F9;
+    border-radius: 16px;
+}
+
+.empire {
+    display: flex;
+    flex-direction: column;
+}
+
+.empire-subtitle {
+    font-weight: bold;
+    color: #1C2736;
+    font-size: 12px;
+}
+
+.empire-title {
+    font-weight: lighter;
+    color: #202B3A;
+    font-size: 44px;
+    margin: 0;
+}
+
+.empire-content {
+    padding-left: 10px;
+}
+
+.empire-content-text{
+    font-size: 24px;
+    color: #5A6671;
+    line-height: 1.4;
+}
+
+.empire-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.empire-nav-menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.empire-nav-menu li {
+    list-style: none;
+    padding: 10px 20px;
+    margin: 15px;
+
+}
+
+.empire-nav ul {
+    display: flex;
+    padding: 0;
+}
+
+.empire-nav-menu li:nth-child(1) {
+    background-color: #786EFF;
+    border-radius: 6px;
+}
+
+.empire-nav-menu li:nth-child(1) a {
+    color: white;
+    margin: 5px;
+}
+
+.empire-nav-menu li:nth-child(2) {
+    border: 2px solid black;
+    border-radius: 6px;
+}

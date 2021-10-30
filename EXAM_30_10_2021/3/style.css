@@ -1,0 +1,183 @@
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.2;
+    font-size: 16px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.apolo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #EFEFEF;
+    margin: 20px;
+    padding: 30px 60px;
+}
+
+.menu {
+    display: flex;
+    margin: 20px;
+    width: 100%;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+.apolo-text {
+    padding-left: 75px;
+    padding-top: 122px;
+    font-size: 18px;
+    line-height: 29px;
+    flex-basis: 46%;
+}
+
+.apolo-text-title {
+    font-weight: lighter;
+}
+
+.apolo-text-content {
+    color: #929292;
+}
+
+.apolo-img {
+    width: 45%;
+    margin: 50px;
+}
+
+.apolo-img img {
+    width: 100%;
+}
+
+/* .apolo-text::after {
+    content: '';
+    background: url("images/hero-a.png");
+    position: absolute;
+    z-index: 1;
+    width: 87%;
+    height: 86%;
+    background-position: top;
+    background-size: contain;
+    top: 21px;
+    left: -424px;
+    background-repeat: no-repeat;
+} */
+
+.camera {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 30px 60px;
+    background-color: #EFEFEF;
+}
+.camera-img {
+    width: 100%;
+}
+.camera-img img {
+    width: 100%;
+}
+.camera-content {
+    padding: 50px;
+}
+
+.camera-content-title {
+    font-weight: lighter;
+}
+.camera-content-text {
+    line-height: 25px;
+}
+.camera-content-icons-ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.camera-content-icons-ul-li {
+    text-decoration: none;
+    margin-right: 20px;
+    border: 1px solid gray;
+    padding: 5px;
+    background-color: gray;
+}
+.camera-content-icons-ul-li i {
+    color: white;
+}
+
+
+.photohrapher {
+    margin: 20px;
+}
+.photohrapher-img {
+    width: 100%;
+}
+
+.photohrapher-img img {
+width: 100%;
+}
+
+.port {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.port-img {
+    width: 30%;
+}
+
+.port-img img {
+    width: 100%;
+}
+
+.port-img:nth-child(2) {
+    width: 50%;
+}
+.port-img img:nth-child(2) {
+    z-index: 1;
+}
+.finish {
+    margin: 20px;
+    padding: 30px 60px;
+    background-color: #EFEFEF;
+}
+.finish-text-title {
+    text-align: center;
+}
+.finish-text-content {
+    text-align: center;
+}
+.finish-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 20px auto;
+
+}
+.email {
+    margin-left: 21px;
+    padding: 10px 57px;
+}
+.subject {
+    margin-left: 62px;
+    padding: 10px 57px;
+}
+.message {
+    width: 100%;
+    margin: 20px;
+}
+.submit {
+    width: 90%;
+    margin: 0 45px;
+    color: white;
+    background-color: black;
+}
+.finish-text-content {
+    margin-top: 40px;
+}
+
+

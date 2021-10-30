@@ -1,0 +1,29 @@
+@media only screen and (max-width: 499px) {
+    table, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+        padding: 2px;
+    }
+    table {
+        padding: 0;
+    }
+    tbody, th, td, tr {
+        padding: 0;
+    }
+    td:nth-of-type(1):before {
+        content: "First Name ";
+    }
+
+    td:nth-of-type(2):before {
+        content: "Last Name ";
+    }
+
+    td:nth-of-type(3):before {
+        content: "Job Title ";
+    }
+
+    thead {
+        display: none;
+    }
+}
+
